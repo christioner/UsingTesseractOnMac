@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Tesseract" Version="5.2.0" />
+    </ItemGroup>
+    <Target Name="link_deps" AfterTargets="AfterBuild">
+        <Exec Command="ln -sf /usr/local/lib/liblept.dylib /Users/christioner/Projects/MyDemo/ConsoleIMGWhite/ConsoleIMGWhite/bin/Debug/net7.0/x64/libleptonica-1.82.0.dylib"/>
+        <Exec Command="ln -sf /usr/local/lib/libtesseract.dylib /Users/christioner/Projects/MyDemo/ConsoleIMGWhite/ConsoleIMGWhite/bin/Debug/net7.0/x64/libtesseract50.dylib"/>
+    </Target>
+</Project>

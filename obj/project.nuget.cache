@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ap0M57sIqG0DlP/e9/Va6pq3OmmQowUwWibYOHe/VznVNQAiA4fC/9l3wbpZBqmTnQQx+mb2bLKDY/a5FBoCtw==",
+  "success": true,
+  "projectFilePath": "/Users/christioner/Projects/MyDemo/ConsoleIMGWhite/ConsoleIMGWhite/ConsoleIMGWhite.csproj",
+  "expectedPackageFiles": [
+    "/Users/christioner/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
+    "/Users/christioner/.nuget/packages/tesseract/5.2.0/tesseract.5.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
